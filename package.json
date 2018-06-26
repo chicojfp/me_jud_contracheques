@@ -1,0 +1,26 @@
+{
+  "name": "xls2json",
+  "version": "1.0.0",
+  "description": "convert brazilian judge payment from xls to json",
+  "main": "xls2json.js",
+  "scripts": {
+    "test": "testar-tudo"
+  },
+  "keywords": [
+    "payment",
+    "brazil",
+    "judge",
+    "parser"
+  ],
+  "author": "io.breezil",
+  "license": "MIT",
+  "dependencies": {
+    "@types/filesystem": "0.0.28",
+    "@types/node": "^10.3.2",
+    "xlsx": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.3.2",
+    "typescript": "^2.9.1"
+  }
+}
